@@ -1,0 +1,22 @@
+{
+  "name": "ironveil-hold-the-yard",
+  "version": "1.1.0",
+  "description": "IRONVEIL: HOLD THE YARD - browser FPS (Three.js) with a two-player LAN co-op shooting range (Node.js + Express + Socket.IO).",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test/server.test.js",
+    "lan-check": "node tools/lan-check.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "socket.io-client": "^4.8.1"
+  }
+}
